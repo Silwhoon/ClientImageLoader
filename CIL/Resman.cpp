@@ -15,20 +15,20 @@ enum RESMAN_PARAM {
 typedef void(__fastcall* CWvsApp__InitializeResMan_t)(void*);
 
 // Function Address
-auto CWvsApp__InitializeResMan = reinterpret_cast<CWvsApp__InitializeResMan_t>(0x000000);
-auto PcCreateObject_IWzResMan = (void(__cdecl*)(void*, void*, void*))0x000000;
-auto PcCreateObject_IWzNameSpace = (void(__cdecl*)(void*, void*, void*))0x000000;
-auto PcCreateObject_IWzFileSystem = (void(__cdecl*)(void*, void*, void*))0x000000;
-auto CWvsApp__Dir_BackSlashToSlash = (void(__cdecl*)(void*))0x000000;
-auto CWvsApp__Dir_upDir = (void(__cdecl*)(void*))0x000000;
-auto bstr_constructor = (void(__fastcall*)(void*, void*, void*))0x000000;
-auto IWzFileSystem__Init = (void*(__fastcall*)(void*, void*, void*))0x000000;
-auto IWZNameSpace__Mount = (void*(__fastcall*)(void*, void*, void*, void*, void*))0x000000;
+auto CWvsApp__InitializeResMan = reinterpret_cast<CWvsApp__InitializeResMan_t>(0x009F7159);
+auto PcCreateObject_IWzResMan = (void(__cdecl*)(void*, void*, void*))0x009FAF55;
+auto PcCreateObject_IWzNameSpace = (void(__cdecl*)(void*, void*, void*))0x009FAFBA;
+auto PcCreateObject_IWzFileSystem = (void(__cdecl*)(void*, void*, void*))0x009FB01F;
+auto CWvsApp__Dir_BackSlashToSlash = (void(__cdecl*)(void*))0x009F95FE;
+auto CWvsApp__Dir_upDir = (void(__cdecl*)(void*))0x009F9644;
+auto bstr_constructor = (void(__fastcall*)(void*, void*, void*))0x00406301;
+auto IWzFileSystem__Init = (void*(__fastcall*)(void*, void*, void*))0x009F7964;
+auto IWZNameSpace__Mount = (void*(__fastcall*)(void*, void*, void*, void*, void*))0x009F790A;
 
 // DWORD Address
-auto g_rm = (void**)0x000000;
-auto g_root = (void**)0x000000;
-auto pNameSpace = 0x000000;
+auto g_rm = (void**)0x00BF14E8;
+auto g_root = (void**)0x00BF14E0;
+auto pNameSpace = 0x00BF0CD0;
 
 // Disable Restrictions
 #pragma optimize("", off)
